@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>나의가계부 지원</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1c1c1e; --bg:#fff; --muted:#6b7280; --line:#e5e7eb; --accent:#2f9e6e; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#f2f2f7; --bg:#111113; --muted:#9ca3af; --line:#2c2c2e; --accent:#58c99a; } }
+  body { margin:0; padding:48px 16px; background:var(--bg); color:var(--fg);
+         font:16px/1.75 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; }
+  main { max-width:640px; margin:0 auto; }
+  h1 { font-size:28px; margin:0 0 8px; letter-spacing:-0.02em; }
+  h2 { font-size:18px; margin:40px 0 8px; letter-spacing:-0.01em; }
+  .meta { color:var(--muted); font-size:14px; margin:0 0 32px; }
+  dl { margin:0; }
+  dt { font-weight:600; margin-top:20px; }
+  dd { margin:4px 0 0; color:var(--fg); }
+  footer { margin-top:48px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>나의가계부</h1>
+  <p class="meta">쓴 돈을 적고, 이번 달에 쓸 수 있는 돈을 본다.</p>
+
+  <h2>자주 묻는 것</h2>
+  <dl>
+    <dt>'사용 가능'은 어떻게 계산되나요?</dt>
+    <dd>지금 가진 현금에 이번 달 들어올 예산을 더하고, 카드로 쓴 금액을 뺀 값입니다.</dd>
+
+    <dt>기록이 다른 기기로 넘어가나요?</dt>
+    <dd>아니요. 모든 기록은 기기 안에만 있습니다. 옮기려면 설정에서 백업 파일을 만들어 새 기기에서 복원하세요.</dd>
+
+    <dt>가계부를 여러 개 쓸 수 있나요?</dt>
+    <dd>네. 가계부마다 결제수단·분류·테마 색을 따로 둘 수 있습니다.</dd>
+
+    <dt>시리로 적을 수 있나요?</dt>
+    <dd>"나의가계부에 적기"라고 말하면 됩니다. 자주 쓰는 키워드를 등록해 두면 금액·분류·결제수단이 한 번에 들어갑니다.</dd>
+
+    <dt>카드값은 어떻게 반영되나요?</dt>
+    <dd>결제수단 설정에서 카드의 결제일과 빠져나갈 계좌를 정해 두면, 카드 내역 화면에서 그 달 사용분을 다음 달 결제일의 현금 지출로 옮겨 적을 수 있습니다.</dd>
+  </dl>
+
+  <h2>문의</h2>
+  <p>버그나 바랐으면 하는 기능이 있으면 메일로 알려 주세요. <a href="mailto:junghun@wantedlab.com">junghun@wantedlab.com</a></p>
+
+  <footer>
+    <a href="privacy.html">개인정보 처리방침</a>
+  </footer>
+</main>
+</body>
+</html>
